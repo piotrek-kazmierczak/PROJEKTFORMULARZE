@@ -87,5 +87,48 @@
             <option value="Chleb mieszany 4 ziarna">Chleb mieszany 4 ziarna</option>
         </select>
         <input type="submit" value="Wybierz">
+            <h1>INF_03_2025_01_01_SG</h1>
+    <form>
+  <b>Oblicz miesięczną ratę</b><br><br>
+
+  <label><input type="checkbox" id="react"> Kurs React.js</label><br>
+  <label><input type="checkbox" id="js"> Kurs JavaScript</label><br><br>
+
+  <label>
+    Liczba rat:
+    <input type="number" id="raty" value="10" min="1">
+  </label><br><br>
+
+  <select id="miasto">
+    <option value="Katowice">Katowice</option>
+    <option value="Warszawa">Warszawa</option>
+    <option value="Kraków">Kraków</option>
+  </select><br><br>
+
+  <button type="button" id="oblicz">Oblicz</button>
+</form>
+<h1>INF_03_2025_01_02_SG</h1>
+<form>
+  <h2>Kalkulator kosztów montażu</h2>
+
+  <label>
+    Szerokość pomieszczenia [m]:
+    <input type="number" id="szerokosc" min="0" step="0.1">
+  </label>
+
+  <label>
+    Długość pomieszczenia [m]:
+    <input type="number" id="dlugosc" min="0" step="0.1">
+  </label>
+
+  <p>Typ panelu</p>
+
+  <label><input type="radio" name="panel" value="laminowane"> Panele laminowane</label><br>
+  <label><input type="radio" name="panel" value="winylowe"> Panele winylowe</label><br>
+  <label><input type="radio" name="panel" value="deska"> Deska podłogowa</label><br><br>
+
+  <button type="button" id="oblicz">Oblicz</button>
+</form>
 </body>
+
 </html>
